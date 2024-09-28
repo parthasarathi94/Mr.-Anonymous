@@ -75,6 +75,7 @@ const SignInPage = () => {
         <div className="text-center">
           <h1 className="text-4xl font-extrabold tracking-tight lg:text-5xl mb-6">Welcome back!</h1>
           <p className="mb-4">Signin to restart your anonymous adventure.</p>
+          <p className="mb-4 text-sm text-red-500">For testing purpose, use romanreigns@gmail.com as email and 123456 as password</p>
         </div>
         {/* Creating the form */}
         <Form {...form}>
